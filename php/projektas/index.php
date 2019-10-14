@@ -1,11 +1,27 @@
-
 <?php
     require_once 'lib/simple_html_dom.php';
+    $partija = "Laisvės partija";
+    $i = 0;
+    $htmlPenkiolikaMin = file_get_html('https://www.15min.lt/naujienos/aktualu/lietuva');
+    foreach ($htmlPenkiolikaMin->find('div[class=item-data]') as $elementPenkiolikaMin) {
+            $linksPenkiolikaMin = $elementPenkiolikaMin->find('a');
+            foreach ($linksPenkiolikaMin as $linkPenkiolikaMin) {
+                $articleLinkPenkiolikaMin = $linkPenkiolikaMin->href;
+                $articlePostPenkiolikaMin = file_get_html($articleLinkPenkiolikaMin);
+                if (stripos($articlePostPenkiolikaMin, "Laisvės partija")) {
+                $result = $i + 1;
+                }
+            }
+        }
+            echo $result;
 
-    $source_url = 'https://www.alfa.lt/straipsnis/50403161/kauno-rajono-savivaldybe-nepritare-v-matijosaicio-pasiulymui-prijungti-dali-rajono-teritorijos';
-    $html_source = file_get_html($source_url);
-    echo '<br>';
-    echo 'title: '. $title = $html_source->find('h1', 0)->plaintext;
-    echo '<br>';
-    echo 'information: '. $information = $html_source->find('p', 0)->plaintext;
+    /**$htmlDelfi = file_get_html('https://www.delfi.lt/archive/');
+    foreach ($htmlDelfi->find('h3[class=headline-title]') as $elementDelfi) {
+            $linksDelfi = $elementDelfi->find('a');
+            foreach ($linksDelfi as $linkDelfi) {
+                $articleLinkDelfi = $linkDelfi->href;
+                $articlePostDelfi = file_get_html($articleLinkDelfi);
+                echo $articlePostDelfi -> plaintext;
+            }
+        }*/
 ?>

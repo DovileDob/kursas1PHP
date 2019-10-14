@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="SVGRoot">
+  <defs
+     id="defs1061">
+    <filter
+       id="filter2728"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         id="feColorMatrix2726"
+         result="fbSourceGraphic"
+         values="1 0 0 0 0 0 0 1 0 0 0 1 0 0 0 -0.21 -0.72 -0.07 2 0 " />
+      <feColorMatrix
+         id="feColorMatrix2730"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1 0 0 0 0 0 0 1 0 0 0 1 0 0 0 -0.21 -0.72 -0.07 2 0 "
+         id="feColorMatrix2732" />
+      <feColorMatrix
+         id="feColorMatrix2734"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         in="fbSourceGraphic"
+         result="color2"
+         values="1 0 0 0 0 0 0 1 0 0 0 1 0 0 0 -0.21 -0.72 -0.07 2 0 "
+         id="feColorMatrix2736" />
+    </filter>
+    <linearGradient
+       spreadMethod="pad"
+       y2="230.00468"
+       x2="64.738777"
+       y1="209.51848"
+       x1="52.079704"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient1862"
+       xlink:href="#linearGradient1858-7-1" />
+    <linearGradient
+       id="linearGradient1858-7-1">
+      <stop
+         id="stop1854"
+         offset="0"
+         style="stop-color:#ffff00;stop-opacity:1" />
+      <stop
+         id="stop1856"
+         offset="1"
+         style="stop-color:#ff0000;stop-opacity:1" />
+    </linearGradient>
+    <filter
+       id="filter2728-3"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         id="feColorMatrix2726-3"
+         result="fbSourceGraphic"
+         values="1 0 0 0 0 0 0 1 0 0 0 1 0 0 0 -0.21 -0.72 -0.07 2 0 " />
+      <feColorMatrix
+         id="feColorMatrix2730-7"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1 0 0 0 0 0 0 1 0 0 0 1 0 0 0 -0.21 -0.72 -0.07 2 0 "
+         id="feColorMatrix2732-0" />
+      <feColorMatrix
+         id="feColorMatrix2734-5"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         in="fbSourceGraphic"
+         result="color2"
+         values="1 0 0 0 0 0 0 1 0 0 0 1 0 0 0 -0.21 -0.72 -0.07 2 0 "
+         id="feColorMatrix2736-3" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata1064">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <ellipse
+     ry="7.573698"
+     rx="7.9044271"
+     cy="216.13673"
+     cx="55.860157"
+     id="path1805"
+     style="fill:url(#linearGradient1862);fill-opacity:1;fill-rule:evenodd;stroke:#0000f9;stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter2728-3)"
+     transform="matrix(5.813828,0,0,5.813828,-274.92988,-1206.5739)" />
+  <g
+     id="flowRoot1606"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e8ffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+     transform="matrix(1.2924991,0,0,1.2924991,240.17288,-467.02782)"
+     aria-label="M* ">
+    <path
+       id="path3734"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Videophreak;-inkscape-font-specification:Videophreak;fill:#e8ffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+       d="m -135.43551,414.42971 q -0.08,0.72 -0.84,1.12 -0.72,0.4 -1.52,0.4 -0.8,0 -1.4,-0.36 -0.76,-0.44 -0.68,-1.2 l 1.88,-21.44 q 0.08,-1 -1.04,-2.2 -1.08,-1.24 -2.12,-1.4 -0.24,-0.04 -0.96,-0.04 -0.84,0 -0.96,0.04 -0.96,0.32 -2.12,1.04 -0.2,0.08 -0.96,1.2 -0.72,1.08 -0.72,1.32 l -1.88,21.52 q -0.08,0.72 -0.84,1.12 -0.76,0.4 -1.52,0.4 -0.76,0 -1.4,-0.4 -0.76,-0.44 -0.68,-1.16 l 1.88,-21.44 q 0.08,-1.04 -1.04,-2.24 -1.12,-1.24 -2.16,-1.36 -0.36,-0.04 -2.2,-0.04 h -1.72 q -1.48,0.16 -1.56,0.92 l -2.08,24.2 q -0.12,1.24 -2.12,1.48 -0.32,0.04 -2.48,0.04 -2.12,0 -2.6,-0.08 -1.84,-0.32 -1.72,-1.48 l 1.28,-14.64 q 0.04,-0.68 0.64,-1.04 0.44,-0.28 2.52,-0.68 1.44,-0.28 1.56,-1.44 l 0.6,-6.76 q 0.04,-0.64 1,-1.96 0.96,-1.32 1.6,-1.76 1.2,-0.84 2.48,-1.08 0.88,-0.16 2.76,-0.16 2.76,0 4.16,0.4 1.96,0.56 3.68,2.4 3.24,-2.8 7,-2.8 3.6,0 6.04,2.4 2.44,2.36 2.12,5.92 z" />
+    <path
+       id="path3736"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:-0.03px;text-anchor:middle;fill:#e8ffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+       d="m -132.90808,389.1708 0.89844,-2.77344 q 3.10546,1.09375 4.51171,1.89454 -0.37109,-3.53516 -0.39062,-4.86329 h 2.83203 q -0.0586,1.9336 -0.44922,4.84375 2.01172,-1.01562 4.60938,-1.875 l 0.89843,2.77344 q -2.48046,0.82031 -4.86328,1.09375 1.19141,1.03516 3.35938,3.69141 l -2.34375,1.66015 q -1.13281,-1.54296 -2.67578,-4.19921 -1.44532,2.7539 -2.53907,4.19921 l -2.30468,-1.66015 q 2.26562,-2.79297 3.24218,-3.69141 -2.51953,-0.48828 -4.78515,-1.09375 z" />
+  </g>
+</svg>
