@@ -1,3 +1,5 @@
+// JAVASCRIPT FOR CALCULATING THE MENTIONS OF PARTIJOS
+
 var parentElement = document.getElementById('section-to-insert-img');
 var competitors = [
     {
@@ -21,6 +23,7 @@ var competitors = [
         score : 7559
     },
 ];
+//SORTING THE SCORES FROM BIGGEST TO LOWEST
 var result = competitors.sort(function(a, b) {
    return parseFloat(a.score) - parseFloat(b.score);
 });
@@ -28,6 +31,7 @@ var result = competitors.reverse(function(a, b) {
    return parseFloat(a.score) - parseFloat(b.score);
 });
 var place = 0;
+//FOR CICLE TO WRITE THE RESULTS INTO HTML FILE
 for(let competitor of competitors){
     if(place < competitors.length){
         childElement = document.createElement('div');

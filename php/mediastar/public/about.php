@@ -22,14 +22,14 @@
 <body>
         <?php include('../app/views/header.php'); ?>
 
-        <main id="main-section-of-page about-page-main">
+        <main id="main-section-of-page">
             <article>
                 <nav>
                 <div class="container-about">
                 <form id="contact" action="about.php" method="post">
                     <img id="about-logo" src="https://www.mediaskopas.lt/wp-content/uploads/2017/08/Mediaskopas-Ziniasklaidos-tyrimai.png" alt="Mediaskopas">
                     <h3>ŽINIASKLAIDOS IR STEBĖSENOS ĮMONĖ</h3>
-                    <p>UAB „Mediaskopas“ - didžiausia Lietuvoje specializuota žiniasklaidos stebėsenos (monitoringo) ir žiniasklaidos analizės sprendimus teikianti bendrovė, dirbanti jau 20metų. Mūsų bendrove pasitiki ir siūlomomis paslaugomis naudojasi daugiau nei 200 Lietuvos ir užsienio verslo bei valstybės institucijų.</p>
+                    <p class="description">UAB „Mediaskopas“ - didžiausia Lietuvoje specializuota žiniasklaidos stebėsenos (monitoringo) ir žiniasklaidos analizės sprendimus teikianti bendrovė, dirbanti jau 20metų. Mūsų bendrove pasitiki ir siūlomomis paslaugomis naudojasi daugiau nei 200 Lietuvos ir užsienio verslo bei valstybės institucijų.</p>
                     <h4>Norėtumete gauti analizę ir statistiką susįjusią su jūsų įmone? Parašykite:</h4>
                     <p><input class="input-boxes" type="email" name="email" placeholder="Jūsų el. pašto adresas" required></p>
                     <p><textarea class="input-boxes" placeholder="Jūsų klausimai, pageidavimai..." name="message" required></textarea></p>
@@ -37,7 +37,20 @@
                 </form>
                 </div>
                 </nav>
-                <nav>
+
+                <br>
+                <br>
+                <br>
+
+                <nav class="contact-icon">
+                    <ul>
+                        <li><a href="mailto: info@mediaskopas.lt" target="_blank"><i class="fas fa-envelope"></i><span> info@mediaskopas.lt</span></a></li>
+                        <li><a href="tel:+370 673 29136"><i class="fas fa-phone-alt"></i><span> +370 673 29136</span></a></li>
+                        <li><a href="https://goo.gl/maps/sKVp4RJGNhftDA7NA" target="_blank"><i class="fas fa-search-location" target="_blank"></i><span> Jogailos g. 9/1, 01116, Vilnius</span></a></li>
+                    </ul>
+                </nav>
+
+                <nav class="map-of-office">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d544.2267846990244!2d25.27791280410299!3d54.685821739299655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd9411c4458557%3A0x6f3e110c62a54d64!2sJogailos%20g.%209%2C%20Vilnius%2001116!5e0!3m2!1sen!2slt!4v1571927275784!5m2!1sen!2slt" width="480" height="480" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </nav>
             </article>

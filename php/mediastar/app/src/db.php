@@ -1,3 +1,4 @@
+<!--SING IN TO THE LOCALHOST SERVER-->
 <?php
     define("DB_SERVER", "localhost");
     define("DB_USER", "root");

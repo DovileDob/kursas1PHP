@@ -1,3 +1,4 @@
+<!--PHP FOR GETTING AND SENDING INFORMATION TO LOCAL EMAIL-->
 <?php
     if (isset($_POST['submit'])){
         $email = trim($_POST['email']);
