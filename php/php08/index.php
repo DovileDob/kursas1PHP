@@ -7,7 +7,11 @@
     $avarage = $result/count($temps);
     echo 'Vidutinė temperatūra: '. round($avarage);
     rsort($temps);
-    //$mostWarm = array_slice($temps, 0, 5);
-    //$mostCold = array_slice($temps, -5, 5);
-    echo (array_slice($temps, 0, 5));
+    $mostWarmtemps = array_slice($temps, 0, 5);
+    $mostColdtemps = array_slice($temps, -5, 5);
+    <?php
+        foreach ($mostWarmtemps as $mostWarmtemp) {
+            echo '<li>'. $mostWarmtemp. '</li>';
+        }
+    ?>
 ?>

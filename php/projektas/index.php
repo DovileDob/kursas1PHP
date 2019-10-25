@@ -1,27 +1,9 @@
 <?php
-    require_once 'lib/simple_html_dom.php';
-    $partija = "Laisvės partija";
-    $i = 0;
-    $htmlPenkiolikaMin = file_get_html('https://www.15min.lt/naujienos/aktualu/lietuva');
-    foreach ($htmlPenkiolikaMin->find('div[class=item-data]') as $elementPenkiolikaMin) {
-            $linksPenkiolikaMin = $elementPenkiolikaMin->find('a');
-            foreach ($linksPenkiolikaMin as $linkPenkiolikaMin) {
-                $articleLinkPenkiolikaMin = $linkPenkiolikaMin->href;
-                $articlePostPenkiolikaMin = file_get_html($articleLinkPenkiolikaMin);
-                if (stripos($articlePostPenkiolikaMin, "Laisvės partija")) {
-                $result = $i + 1;
-                }
-            }
-        }
-            echo $result;
+    require_once('lib/simple_html_dom.php');
 
-    /**$htmlDelfi = file_get_html('https://www.delfi.lt/archive/');
-    foreach ($htmlDelfi->find('h3[class=headline-title]') as $elementDelfi) {
-            $linksDelfi = $elementDelfi->find('a');
-            foreach ($linksDelfi as $linkDelfi) {
-                $articleLinkDelfi = $linkDelfi->href;
-                $articlePostDelfi = file_get_html($articleLinkDelfi);
-                echo $articlePostDelfi -> plaintext;
-            }
-        }*/
+    $htmlPenkiolikaMin = file_get_html('https://www.respublika.lt/lt/paieska/?key=Šimonytė&x=0&y=0');
+
+//** bandžiau naudoti įvairius linkus (ir šiuo metu įkeltą ir paprastą https://www.15min.lt/paieska?q=Šimonytė) tam, kad gaučiau tokį patį rezultatą, jei tą linką reikėtų paleisti internete paprastai. Visais atvejais gaunu tą patį rezultatą: langą be paieškos rezultato.
+   $result = $htmlPenkiolikaMin->find('div(class=search_results)');
+    print_r($result);
 ?>
