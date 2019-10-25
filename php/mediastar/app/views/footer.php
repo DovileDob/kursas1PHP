@@ -6,10 +6,10 @@
 
         <div class="footer-section contact">
             <ul>
-                <li><a href="https://www.facebook.com/Mediaskopas/"><i class="fab fa-facebook"></i><span> Mediaskopas FB</span></a></li>
-                <li><a href="https://www.linkedin.com/company/mediaskopas-uab"><i class="fab fa-linkedin-in"></i><span> Mediaskopas Linkedid</span></a></li>
-                <li><a><i class="fas fa-phone-alt"></i><span> +370 673 29136</span></a></li>
-                <li><a href="https://goo.gl/maps/sKVp4RJGNhftDA7NA"><i class="fas fa-search-location"></i><span> Jogailos g. 9/1, 01116, Vilnius</span></a></li>
+                <li><a href="https://www.facebook.com/Mediaskopas/" target="_blank"><i class="fab fa-facebook"></i><span> Mediaskopas FB</span></a></li>
+                <li><a href="https://www.linkedin.com/company/mediaskopas-uab" target="_blank"><i class="fab fa-linkedin-in"></i><span> Mediaskopas Linkedid</span></a></li>
+                <li><a href="tel:+370 673 29136"><i class="fas fa-phone-alt"></i><span> +370 673 29136</span></a></li>
+                <li><a href="https://goo.gl/maps/sKVp4RJGNhftDA7NA" target="_blank"><i class="fas fa-search-location" target="_blank"></i><span> Jogailos g. 9/1, 01116, Vilnius</span></a></li>
         </ul>
         </div>
     </div>

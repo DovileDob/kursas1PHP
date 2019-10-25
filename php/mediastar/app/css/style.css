@@ -4,95 +4,16 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
+    /*Header styles CSS*/
 header {
     background: #2C0D8D ;
     text-align: center;
-}
-@media screen and (max-width: 999px){
-    #navigation-bar {
-        position: relative;
-        background-color: #2C0D8D ;
-        overflow: hidden;
-        position: fixed;
-        bottom: 50%;
-        width: 10%;
-        height: 200px;
-    }
-    #navigation-bar ul li a {
-    display: block;
-    height: 20px;
-    text-decoration: none;
-    color: white;
-    padding: 15px 0 15px 0;
-    margin: 0 0 0 0;
-    }
-    #dividing-bar-header {
-    display: none;
-    }
-    footer {
-    background: #2C0D8D;
-    color: white;
-    width: 100%;
-    height: 200px;
-    margin: 10px 0 0 0;
-    position: relative;
-    }
-
-    footer .footer-content {
-
-        height: 100%;
-    }
-    footer .footer-content .contact ul li {
-        padding: 0 0 0 0;
-        margin: 0 0 0 0;
-        text-decoration: none;
-        list-style: none;
-    }
-    footer .footer-content .contact ul li a {
-        display: block;
-        color: white;
-        padding: 0 0 10px;
-        text-decoration: none;
-    }
-    footer .footer-content .contact ul li i {
-        padding: 5px;
-        border: 1px solid #DEDEDE;
-        border-radius: 15%;
-    }
-    #footer-logo {
-        width: 200px;
-    }
-    footer .footer-content .main-logo-left {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 }
 
 #main-logo {
    padding: 5px;
 }
-#navigation-bar ul {
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-}
-#navigation-bar ul li{
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-    text-decoration: none;
-    list-style: none;
-}
-
-.navigation-bar a:active {
-    background: #00f900ff;
-}
-
-main {
-    text-align: center;
-    min-height: 100%;
-}
-
+        /*Main logo animation effect*/
 @-webkit-keyframes hvr-buzz {
   50% {
     -webkit-transform: translateX(3px) rotate(2deg);
@@ -131,6 +52,28 @@ main {
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+}
+
+        /*Navigation bar default css*/
+#navigation-bar ul {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+#navigation-bar ul li{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navigation-bar a:active {
+    background: #00f900ff;
+}
+
+    /*Main default style CSS*/
+main {
+    text-align: center;
+    min-height: 100%;
 }
 
 .imageContainer {
@@ -195,7 +138,7 @@ main {
 .placeAndScore h4 {
     margin: 0;
 }
-
+    /*Css for about.php Main*/
 #main-section-of-page {
     padding: 0 0 100px 0;
 }
@@ -230,27 +173,94 @@ main {
     background: #00f900ff;
 }
 
-
+    /*Footer default CSS*/
 footer .info {
-    position: absolute;
-    height: 50px;
     width: 100%;
     text-align: center;
     bottom: 0;
     left: 0;
     padding-top: 20px;
+    position: absolute;
+}
+
+    /* MEDIA QUERIES FOR mobile */
+@media screen and (max-width: 999px){
+    #navigation-bar {
+        position: relative;
+        background-color: #2C0D8D ;
+        overflow: hidden;
+        position: fixed;
+        bottom: 50%;
+        width: 10%;
+        height: 200px;
+    }
+    #navigation-bar ul li a {
+    display: block;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 15px 0 15px 0;
+    margin: 0 0 0 0;
+    }
+    #dividing-bar-header {
+    display: none;
+    }
+    footer {
+    background: #2C0D8D;
+    color: white;
+    width: 100%;
+    height: 300px;
+    margin: 10px 0 0 0;
+    position: relative;
+    }
+
+    .imageContainer:active .overlay {
+    opacity: 0.8;
+    }
+    .imageContainer:active .placeAndScore{
+    opacity: 0;
+    }
+    .name a:active {
+    color: #00f900ff;
+    }
+
+    footer .footer-content{
+        flex: 1;
+        flex-direction: column;
+    }
+    footer .footer-content .contact ul li {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    footer .footer-content .contact ul li a {
+        display: block;
+        color: white;
+        padding: 0 0 10px;
+        text-decoration: none;
+    }
+    footer .footer-content .contact ul li a:active {
+        color: #00f900ff;
+    }
+    footer .footer-content .contact ul li i {
+        padding: 5px;
+        border: 1px solid #DEDEDE;
+        border-radius: 15%;
+    }
+    #footer-logo {
+        width: 200px;
+    }
+    footer .footer-content .main-logo-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 
     /* MEDIA QUERIES FOR PC */
 @media screen and (min-width: 1000px) {
-    #navigation-bar {
-    background-color: #2C0D8D ;
-    overflow: hidden;
-    width: 100%;
-    height: 50px;
-    display: table;
-    }
 
     #main-logo:hover {
       -webkit-animation-name: hvr-buzz;
@@ -266,25 +276,33 @@ footer .info {
     width: 500px;
     border: 2px solid white;
     border-radius: 2px;
+    margin-bottom: 5px;
     }
-    #navigation-bar ul{
-        min-width: 696px;
-    }
+    #navigation-bar {
+    background-color: #2C0D8D ;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+     }
     #navigation-bar ul li{
         display:inline;
     }
-
     #navigation-bar a {
     text-align: center;
     height: 20px;
     text-decoration: none;
     color: white;
-    padding: 20px;
-    margin: 0 30px 0 30px;
+    padding: 50px;
+    margin: 0;
     }
     #navigation-bar a:hover {
     background: #00f900ff;
     }
+
     .imageContainer:hover .overlay {
     opacity: 0.8;
     }
@@ -293,6 +311,10 @@ footer .info {
     }
     .name a:hover {
     color: #00f900ff;
+    }
+
+    #about-logo {
+    width: 400px;
     }
     .input-boxes, #contact {
     max-width: 400px;
@@ -315,16 +337,15 @@ footer .info {
         transform: translateY(-5px;)
     }
     }
-    #about-logo {
-    width: 400px;
-    }
     .container-about button:hover {
     background: #00f900ff;
     animation: bounce 0.5s;
     }
+
     .name a:hover {
     color: #00f900ff;
     }
+
     footer {
     background: #2C0D8D;
     color: white;
@@ -333,7 +354,6 @@ footer .info {
     margin: 10px 0 0 0;
     position: relative;
     }
-
     footer .footer-content {
         display: flex;
         height: 100%;

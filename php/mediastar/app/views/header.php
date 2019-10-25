@@ -1,5 +1,5 @@
 <header>
-    <a href="about.php"><img id="main-logo" src="../../../../php/mediastar/app/photo/main-media-logo.svg"></a>
+    <a href="about.php"><img id="main-logo" src="../../../../php/mediastar/app/photo/main-media-logo.svg" alt="Mediastar"></a>
 
     <hr id="dividing-bar-header">
 
